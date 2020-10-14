@@ -8,10 +8,9 @@ function howManyCamelCase (str) {
         if (code >= 65 && code <= 90) {
             count++;
         }
-
-      }
+    }
 
     return count;
 }
 
-console.log(howManyCamelCase('salutCaVaBienEtToi'))
+console.log(howManyCamelCase('salutCaVaBienEtToi'));

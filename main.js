@@ -1,3 +1,10 @@
-const CamelCase = require ('e01');
-const Panagram = require ('e02');
-const Marsos = require ('e03');
+// const CamelCase = require ('./e01.js');
+// const Panagram = require ('./e02');
+// const Marsos = require ('./e03');
+
+
+// Get the number of words
+// console.log('e01 :', CamelCase())
+
+// Get the pangrams
+// console.log('e02 :', Panagram())
