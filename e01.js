@@ -1,14 +1,17 @@
-function CamelCase(str) {
+function howManyCamelCase (str) {
 
-    let test = 1;
+    let count = 1;
 
-    for (let i = 0; i < selectObject.options.length; i++) {
+    for (let i = 0; i < str.length; i++) {
+        const code = str.charCodeAt(i)
 
-        if (selectObject.options[i].selected) {
-            test++;
+        if (code >= 65 && code <= 90) {
+            count++;
         }
 
       }
 
-    return test;
+    return count;
 }
+
+console.log(howManyCamelCase('salutCaVaBienEtToi'))
