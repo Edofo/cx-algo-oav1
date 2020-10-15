@@ -1,5 +1,9 @@
 function howManyCamelCase (str) {
-
+/* CORRECTION
+    if (!str) {
+        return 0
+    }
+*/
     let count = 1;
 
     for (let i = 0; i < str.length; i++) {
